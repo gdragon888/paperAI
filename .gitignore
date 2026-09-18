@@ -1,0 +1,33 @@
+# 环境与密钥
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Streamlit / 本地缓存
+.streamlit/secrets.toml
+
+# 导出与临时文件
+*.tmp
+uploads/
+exports/
+
+# 本地数据库（含论文全文与 PDF，仅存本机）
+data/
+*.db
+*.sqlite
+*.sqlite3
